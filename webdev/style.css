@@ -1,0 +1,722 @@
+html {
+    width: 1600px;
+    margin: 0 auto;
+    font-family: "Roboto";
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+/*
+! BUTTONS
+*/
+
+.GetStarted {
+    width: 184px;
+    height: 46px;
+    background: #00AFDB;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: none;
+}
+
+.GetStarted:hover {
+    background: #009CC2;
+}
+
+.AppleStore {
+    display: flex;
+    width: 186px;
+    height: 46px;
+    background: #00AFDB;
+    border: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+}
+
+.AppleStore div {
+    display: flex;
+    position: relative;
+    width: 59px;
+    height: 46px;
+    left: 29px;
+    margin: 0;
+    background: #009CC2;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.AppleStore:hover {
+    background: #009CC2;
+}
+
+.PlayMarket {
+    display: flex;
+    width: 186px;
+    height: 46px;
+    background: #00AFDB;
+    border: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+}
+
+.PlayMarket div {
+    display: flex;
+    position: relative;
+    width: 59px;
+    height: 46px;
+    left: 27px;
+    margin: 0;
+    background: #009CC2;
+    border: none;
+    align-items: center;
+    justify-content: center; 
+}
+
+.PlayMarket:hover {
+    background: #009CC2;
+}
+
+
+
+
+
+/*
+! HEADER
+*/
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    position: absolute;
+    width: 1600px;
+    height: 95px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    align-content: center;
+    width: 596px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.navbar ul li a:hover {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.navbar ul.left {
+    display: flex;
+    width: 175px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul.right {
+    display: flex;
+    width: 176px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo {
+    position: relative;
+    top: 1px;
+    right: 0px;
+}
+
+.FAQ {
+    position: relative;
+    right: 13px;
+}
+
+
+
+/*
+! MAIN 
+*/
+
+/*
+MAIN BACKGROUND
+*/
+
+.one {
+    width: auto;
+    height: 744px;
+    background-image: url(assets/bg-image-1.png);
+}
+
+.two {
+    display: flex;
+    width: auto;
+    height: 842px;
+    background-color: #FFFFFF
+    ;
+}
+
+.three {
+    display: flex;
+    width: auto;
+    height: 504px;
+    background-color: #F5F6F7;
+}
+
+.four {
+    display: flex;
+    width: auto;
+    height: 842px;
+    background-color: #FFFFFF;
+}
+
+.five {
+    display: flex;
+    width: auto;
+    height: 524px;
+    background-image: url(assets/bg-5.png);
+}
+
+.six {
+    display: flex;
+    width: auto;
+    height: 464px;
+    background-color: #F5F6F7;
+}
+
+
+
+/*
+SECTION 1 TITLE
+*/
+
+section .one {
+    display: flex;
+}
+
+.title {
+    position: relative;
+    width: 740px;
+    height: 250px;
+    left: 435px;
+    top: 229px;
+}
+
+h1 {
+    display: inline-block;
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 4.5px;
+    color: #FFFFFF;
+    margin: 0;
+    align-items: center;
+}
+
+.one p {
+    display: inline-block;
+    position: relative;
+    width: 504px;
+    height: 50px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin: 0;
+    left: 114px;
+    top: 22px;
+}
+
+.one div .GetStarted {
+    position: relative;
+    left: 273px;
+    top: 51px;
+}
+
+
+
+/*
+SECTION 1 SOCIAL
+*/
+
+.social {
+    position: relative;
+    margin: 0;
+    left: 715px;
+    top: 368px;
+    width: 170px;
+    height: 20px;
+}
+
+.social ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social ul li a div.logoMail {
+    width: 20px;
+    height: 20px;
+    background-image: url(assets/mail.svg);
+}
+
+.social ul li a div.logoMail:hover {
+    background-image: url(assets/mail\ copy.svg);
+}
+
+.social ul li a div.logoFacebook {
+    width: 20px;
+    height: 20px;
+    background-image: url(assets/facebook.svg);
+}
+
+.social ul li a div.logoFacebook:hover {
+    background-image: url(assets/facebook\ copy.svg);
+}
+
+.social ul li a div.logoInsta {
+    width: 20px;
+    height: 20px;
+    background-image: url(assets/insta.svg);
+}
+
+.social ul li a div.logoInsta:hover {
+    background-image: url(assets/insta\ copy.svg);
+}
+
+.social ul li a div.logoTelegram {
+    width: 20px;
+    height: 20px;
+    background-image: url(assets/telegram.svg);
+}
+
+.social ul li a div.logoTelegram:hover {
+    background-image: url(assets/telegram\ copy.svg);
+}
+
+
+
+/*
+SECTION 2
+*/
+
+.rappresent {
+    position: relative;
+    width: 407px;
+    height: 233px;
+    left: 269px;
+    top: 295px;
+}
+
+.rappresent h2 {
+    position: absolute;
+    width: 380px;
+    height: 57px;
+    left: 0px;
+    top: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #373737;
+}
+
+.rappresent p {
+    position: absolute;
+    width: 407px;
+    height: 80px;
+    left: 0px;
+    top: 77px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+}
+
+.rappresent button {
+    position: absolute;
+    left: 0px;
+    top: 187px;
+}
+
+.rappresent-image {
+    position: relative;
+    height: 582px;
+    left: 517px;
+    top: 120px;
+}
+
+
+
+/*
+SECTION 3
+*/
+
+.our-community {
+    position: relative;
+    width: 298px;
+    height: 175px;
+    left: 269px;
+    top: 155px;
+}
+
+.our-community img {
+    position: relative;
+    left: 127px;
+    top: 0px;
+}
+
+.our-community h2 {
+    position: absolute;
+    width: 161px;
+    height: 20px;
+    left: calc(50% - 158px/2);
+    top: 65px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    color: #373737;
+}
+
+.our-community p {
+    position: absolute;
+    width: 298px;
+    height: 80px;
+    left: calc(50% - 298px/2);
+    top: 95px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+    text-align: center;
+}
+
+
+
+
+.slider {
+    position: relative;
+    width: 894px;
+    height: 308px;
+    left: 408px;
+    top: 56px;
+    overflow: hidden;
+}
+
+.slider-arrow {
+    position: relative;
+    left: 542px;
+    top: 17px;
+    display: flex;
+    width: 83px;
+    height: 18px;
+    justify-content: space-between;
+}
+
+.arrow-left{
+    font-size: 30px;
+    text-decoration: none;
+    color: #373737;
+}
+
+.arrow-left:hover{
+    opacity: 0.5;
+}
+
+.slider-count {
+    position: relative;
+    left: 2px;
+    top: 7px;
+    font-size: 20px;
+    letter-spacing: 3.5px;
+    color: #373737;
+}
+
+.arrow-right {
+    font-size: 30px;
+    text-decoration: none;
+    color: #373737;
+}
+
+.arrow-right:hover {
+    opacity: 0.5;
+}
+
+.slider-content {
+    display: flex;
+    position: relative;
+    left: 0px;
+    top: 30px;
+    width: 1281px;
+    height: 244px;
+    justify-content: space-between;
+}
+
+
+/*
+SECTION 4
+*/
+
+.implement-img {
+    position: relative;
+    width: 407px;
+    height: 582px;
+    left: 269px;
+    top: 120px;
+}
+
+.implement {
+    position: relative;
+    width: 407px;
+    height: 184px;
+    left: 408px;
+    top: 319px;
+}
+
+.implement h2 {
+    position: absolute;
+    width: 305px;
+    height: 28px;
+    left: 0px;
+    top: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #373737;
+}
+
+.implement p {
+    position: absolute;
+    width: 407px;
+    height: 60px;
+    left: 0px;
+    top: 48px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+}
+
+.implement button {
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 0px;
+    top: 138px;
+}
+
+
+
+/*
+SECTION 5
+*/
+
+.sign-up {
+    position: relative;
+    width: 406px;
+    height: 104px;
+    left: 597px;
+    top: 200px;
+}
+
+.sign-up fieldset legend {
+    position: absolute;
+    width: 385px;
+    height: 28px;
+    left: 13px;
+    top: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.sign-up fieldset input {
+    position: absolute;
+    width: 340px;
+    height: 46px;
+    left: 0px;
+    top: 58px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #373737;
+    opacity: 0.5;
+    border: none;
+    padding: 0;
+}
+
+.sign-up fieldset button {
+    position: absolute;
+    width: 66px;
+    height: 46px;
+    left: 340px;
+    top: 58px;
+    background: #00AFDB;
+    border: none;
+}
+
+.sign-up fieldset button:hover {
+    background: #009CC2;
+}
+
+
+
+/*
+SECTION 6
+*/
+
+
+.download {
+    position: relative;
+    width: 480px;
+    height: 300px;
+    left: 559px;
+    top: 120px;
+}
+
+.download h2 {
+    position: relative;
+    width: 255px;
+    height: 28px;
+    left: 116px;
+    top: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #373737;
+}
+
+.download p {
+    position: relative;
+    width: 480px;
+    height: 40px;
+    left: 0px;
+    top: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+    text-align: center;
+}
+
+.marketplace {
+    position: relative;
+    left: 40px;
+    top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 402px;
+    margin: 0;
+}
+
+
+/*
+FOOTER
+*/
+
+.footer {
+    display: flex;
+    width: auto;
+    height: 185px;
+    background-color: #000000;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-nav {
+    position: relative;
+    width: 236px;
+    height: 20px;
+    left: 160px;
+    top: -9px;
+}
+
+.footer div nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer div nav ul li a{
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.footer-logo {
+    position: relative;
+    left: -34px;
+    top: -9px;
+}
+
+.copyright {
+    position: relative;
+    width: 170px;
+    height: 20px;
+    left: -159px;
+    top: -9px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #818181;
+}
+
+
